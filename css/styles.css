@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Contenido principal */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+section p {
+    margin-bottom: 1rem;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Estilos de enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.card {
+    width: 90%; /* Ancho relativo para adaptarse a diferentes pantallas */
+    max-width: 300px; /* Ancho máximo para evitar que se estire demasiado en pantallas grandes */
+    margin: 20px auto; /* Centrado horizontal y margen vertical */
+    padding: 20px;
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    display: flex; /* Usamos flexbox para centrar contenido interno */
+    flex-direction: column; /* Alineamos los elementos internos en columna */
+    align-items: center; /* Centramos los elementos internos horizontalmente */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 600px) {
+    .card {
+        width: 95%; /* Ancho más amplio en móviles */
+        margin: 10px auto; /* Márgenes más pequeños en móviles */
+        padding: 15px; /* Relleno más pequeño en móviles */
+    }
+}
+
+
+
